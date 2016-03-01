@@ -1,0 +1,28 @@
+#bar {
+    color: #435343;
+}
+
+.bar {
+    color: #435343;
+}
+
+#bar #bar {
+    width: 200px;
+}
+
+.bar .bar {
+    width: 200px;
+}
+
+@media (max-width: 479px) {
+    #bar {
+        color: #435343;
+    }
+}
+
+@keyframes bar {
+    0% {
+        left: 0%;
+        width: 0%;
+    }
+}

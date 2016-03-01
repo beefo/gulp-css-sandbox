@@ -1,0 +1,28 @@
+#foo #bar {
+    color: #435343;
+}
+
+#foo .bar {
+    color: #435343;
+}
+
+#foo #bar #bar {
+    width: 200px;
+}
+
+#foo .bar .bar {
+    width: 200px;
+}
+
+@media (max-width: 479px) {
+    #foo #bar {
+        color: #435343;
+    }
+}
+
+@keyframes bar {
+    0% {
+        left: 0%;
+        width: 0%;
+    }
+}
