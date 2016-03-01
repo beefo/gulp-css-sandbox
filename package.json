@@ -17,7 +17,7 @@
   },
   "dependencies": {
     "css": "^2.2.1",
-    "gulp-util": "~2.2.0",
+    "gulp-util": "~3.0.7",
     "through2": "*"
   },
   "devDependencies": {
