@@ -27,7 +27,6 @@ gulp.src("./src/*.css")
 
 The prefix you want to attach to the css rules
 
-
 ## License
 
 [MIT License](http://en.wikipedia.org/wiki/MIT_License)
@@ -38,8 +37,8 @@ The prefix you want to attach to the css rules
 [travis-url]: http://travis-ci.org/beefo/gulp-css-sandbox
 [travis-image]: https://secure.travis-ci.org/beefo/gulp-css-sandbox.png?branch=master
 
-[coveralls-url]: https://coveralls.io/r/beefo/gulp-css-sandbox
-[coveralls-image]: https://coveralls.io/repos/beefo/gulp-css-sandbox/badge.png
+[coveralls-url]: https://coveralls.io/github/beefo/gulp-css-sandbox?branch=master
+[coveralls-image]: https://coveralls.io/repos/github/beefo/gulp-css-sandbox/badge.svg?branch=master
 
 [depstat-url]: https://david-dm.org/beefo/gulp-css-sandbox
 [depstat-image]: https://david-dm.org/beefo/gulp-css-sandbox.png
