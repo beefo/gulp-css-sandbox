@@ -75,5 +75,37 @@ describe("gulp-css-sandbox", function () {
         stream.write(srcFile);
         stream.end();
     });
+    
+    it("should error without params", function (done) {
+
+        should.throws(cssSandbox);
+        done();
+
+    });
+    
+    it("should pass through null file", function (done) {
+
+        var srcFile = new gutil.File({
+            path: "test/foo.css",
+            cwd: "test/",
+            base: "test/",
+            contents: null
+        });
+
+        var stream = cssSandbox("#foo");
+
+        stream.on("error", function (err) {
+            should.exist(err);
+            done();
+        });
+
+        stream.on("data", function (newFile) {
+            should.equal(true, newFile.isNull());
+            done();
+        });
+
+        stream.write(srcFile);
+        stream.end();
+    });
 
 });
