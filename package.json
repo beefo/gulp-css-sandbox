@@ -1,6 +1,6 @@
 {
   "name": "gulp-css-sandbox",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A plugin for Gulp to sandbox css by prefixing rules with a selector",
   "keywords": [
     "gulpplugin"
