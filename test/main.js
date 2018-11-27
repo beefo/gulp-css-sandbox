@@ -42,7 +42,7 @@ describe("gulp-css-sandbox", function () {
             should.exist(newFile);
             should.exist(newFile.contents);
 
-            String(newFile.contents).should.equal(String(expectedFile.contents));
+            String(newFile.contents).replace(/\s/g, "").should.equal(String(expectedFile.contents).replace(/\s/g, ""));
             done();
         });
 
